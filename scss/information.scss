@@ -1,0 +1,86 @@
+
+.information {
+
+    margin-bottom: $distance-between-blocks;
+
+    color: #130E0E;
+    @extend %font-first;
+    text-transform: lowercase;
+
+    &__container {
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: $information-distance-between;
+
+        @media (max-width: 768px) {
+            
+            gap: $information-distance-between768;
+
+        }
+    
+        @media (max-width: 425px) {
+    
+            gap: $information-distance-between425;
+            
+        }
+
+    }
+
+    &__text {
+
+        display: flex;
+
+        flex-direction: column;
+        gap: $indentation-between-paragraphs;
+
+        padding-left:  $protective-padding + 10px;
+        padding-right:  $protective-padding + 10px;
+
+        font-size: $font-information-item-text;
+        text-align: center;
+
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            
+            font-size: $font-information-item-text768;
+            gap: $indentation-between-paragraphs768;
+    
+        }
+    
+        @media (max-width: 425px) {
+    
+            font-size: $font-information-item-text425;
+            gap: $indentation-between-paragraphs425;
+            
+        }
+
+    }
+
+
+    &__img {
+
+        max-width: 60%;
+
+    }
+
+    @media (max-width: 768px) {
+            
+        margin-bottom: $distance-between-blocks768;
+
+    }
+
+    @media (max-width: 425px) {
+
+        margin-bottom: $distance-between-blocks425;
+        
+    }
+
+}

@@ -1,0 +1,52 @@
+
+.aboutus {
+
+    &__container {
+
+        max-width: 1125px;
+
+        padding-top: 150px;
+        margin-bottom: $distance-between-blocks;
+
+        @media (max-width: 768px) {
+
+            font-size: $distance-between-blocks768;
+
+        }
+
+        @media (max-width: 425px) {
+
+            font-size: $distance-between-blocks425;
+
+        }
+
+    }
+
+    &__text {
+
+        text-align: center;
+
+        @extend %font-first;
+        font-size: 64px;
+        color: #130E0E;
+
+        @media (max-width: 768px) {
+
+            font-size: 36px;
+
+        }
+
+        @media (max-width: 425px) {
+
+            font-size: 24px;
+
+        }
+
+    }
+
+    &__span {
+
+        color: #FC7303;
+
+    }
+}

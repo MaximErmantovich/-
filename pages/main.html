@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VROOMVROOM Rentals</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head> 
+    <body>
+        <div class="wrapper">
+
+            <header class="header">
+    
+                <div class="header__container _container">
+    
+                    <a href="./home.html" class="header__logo"><img src="../pictures/Logo.svg" alt=" Логотип VROOMVROOM Rentals" class="header__img"></a>
+    
+                    <div class="header__menu menu">
+    
+                        <div class="header__burger-btn">
+                            <span></span><span></span><span></span>
+                        </div>
+    
+                        <nav class="header__nav">
+    
+                            <ul class="header__list">
+                                <li class="header__item"><a href="main.html" class="header__link">Автопарк</a></li>
+                                <li class="header__item"><a href="./aboutUs.html" class="header__link">О нас</a></li>
+                                <!-- <li class="header__item"><a href="./authorization.html" class="header__link">Личный кабинет</a></li> -->
+                                <li class="header__item"><button id="authorisation" >ВОЙТИ</button></li>
+                                </li>
+                            </ul>
+    
+                        </nav>
+    
+                    </div>
+    
+                </div>
+    
+            </header>
+        
+            
+        <main class="main">
+            <br><br><br><br><br><br><br><br><br>
+            <form id="menu">
+                <form name="search">
+                    <input type="search" placeholder="Поиск авто" id="search">
+                </form>
+                <select id="choice" name="sort">
+                    <option value="ascending">По возрастанию цены</option>
+                    <option value="descending">По убыванию цены</option>
+                </select>
+                <button id="sort" class="but">Сортировать</button>
+            </form>
+            <div id="cars"></div>
+        </div>
+        
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer__container _container">
+
+                <div class="footer__information">
+
+                    <nav class="footer__nav">
+
+                        <div class="list__wrapper">
+
+                            <h5 class="list__title">Навигация</h5>
+
+                            <div class="nav__arrow list__arrow">
+                                <span ></span>
+                                <span ></span>
+                            </div>
+
+                        </div>
+
+                        <ul class="footer__list list">
+
+                            <li class="list__item "><a href="home.html" class="list__link">Главная</a></li>
+                            <li class="list__item"><a href="main.html" class="list__link">Аренда автомобилей</a></li>
+                            <li class="list__item"><a href="aboutUs.html" class="list__link">О нас</a></li>
+
+                        </ul>
+
+                    </nav>
+                    
+
+                    <div class="footer__contacts">
+
+                        <div class="list__wrapper">
+
+                            <h5 class="list__title">Контакты</h5>
+
+                            <div class="contacts__arrow list__arrow">
+                                <span ></span>
+                                <span ></span>
+                            </div>
+
+                        </div>
+
+                        <ul class="footer__list list">
+
+                            <li class="list__item">Call-Center</li>
+                            <li class="list__item"><a href="tel:+375441234567" class="list__link">A1: +375 44 1234567</a></li>
+                            <li class="list__item"><a href="tel:+375291234567" class="list__link">MTC: +375 29 1234567</a></li>
+                            <li class="list__item">Почта автосалона</li>
+                            <li class="list__item"><a href="mailto:VroomVroom.rentals@gmail.com" class="list__link">VroomVroom.rentals@mail.ru</a></li>        
+
+                        </ul>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="footer__media">
+
+                    <img src="../pictures/Logo.svg" alt="VROOMVROOM Rentals" class="media__logo">
+
+                    <div class="media__wrapper">
+    
+                        <a class="media__link" href="https://www.facebook.com/VROOMVROOM Rentals/"><img src="../icons/footer__facebook.png" alt="Facebook VROOMVROOM Rentals" class="media__img"></a>
+                        <a class="media__link" href="https://www.instagram.com/VROOMVROOM Rentals/"><img src="../icons/footer__instagram.png" alt="Instagram VROOMVROOM Rentals" class="media__img"></a>
+                
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    </div>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/search.js"></script>
+        <script src="../scripts/sort.js"></script>
+        <script src="../scripts/account.js"></script>
+        
+        <script src="/burger_menu/burger_menu.js"></script>
+        <script src="/burger_menu/footer__nav__menu.js"></script>
+    </body>
+</html>

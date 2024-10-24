@@ -1,0 +1,130 @@
+
+//FONTS
+
+%font-first  {
+
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+$font-second: "Comfortaa", sans-serif;
+
+//GENERAL STYLE
+
+$protective-padding: 20px;
+
+$distance-between-blocks: 100px;
+$distance-between-blocks768: 70px;
+$distance-between-blocks425: 40px;
+
+
+    //BUTTON
+
+    $size-button: 24px;
+    $size-button768: 20px;
+    $size-button425: 16px;
+
+    $height-button: 70px;
+    $height-button768: 50px;
+    $height-button425: 40px;
+
+
+    $width-button: 390px;
+    $width-button768:  300px;
+    $width-button425:  260px;
+
+    $button-color: #C66516;
+
+//HEADER
+
+$font-color-header: rgba(186,169,169, 1);
+
+$header-color-background: rgba(40,39,39, 0.9);
+
+$header-size-font: 20px;
+
+    //BURGER
+
+    $size-burger: 30px;
+
+//WELCOME
+
+$font-color-welcome: #FCFCFC;
+
+$font-size-welcome: 64px;
+$font-size-welcome768: 40px;
+$font-size-welcome425: 26px;
+
+//ADVANTAGES
+
+$advantages-color-background: #D9D9D9;
+
+$advantages-item-w: 400px;
+$advantages-item-w768: 320px;
+$advantages-item-w425: 280px;
+
+$advantages-item-h: 200px;
+$advantages-item-h768: 180px;
+$advantages-item-h425: 160px;
+
+$font-advantages-item-title: 24px;
+$font-advantages-item-title768: 20px;
+$font-advantages-item-title425: 16px;
+
+$advantages-item-img-h: 40px;
+$advantages-item-img-h768: 35px;
+$advantages-item-img-h425: 30px;
+
+$font-advantages-item-desc:20px;
+$font-advantages-item-desc768:16px;
+$font-advantages-item-desc425:14px;
+
+$color-text-advantages: #130E0E;
+
+//PRODUCTS
+
+$production-footer-color-background: #26221E;
+
+$font-products-item-title: 48px;
+$font-products-item-title768: 32px;
+$font-products-item-title425: 24px;
+
+$font-products-item-desc: 32px;
+$font-products-item-desc768: 24px;
+$font-products-item-desc425: 20px;
+
+$font-products-link: 20px;
+$font-products-link768: 16px;
+$font-products-link425: 12px;
+
+$products-img-size: 18px;
+$products-img-size768: 14px;
+$products-img-size425: 10px;
+
+$products-item-img-w: 400px;
+$products-item-img-w768: 350px;
+$products-item-img-w425: 270px;
+
+$products-item-img-h: 500px;
+$products-item-img-h768: 450px;
+$products-item-img-h425: 370px;
+
+//INFORMATION
+
+$font-information-item-text: 36px;
+$font-information-item-text768: 24px;
+$font-information-item-text425: 16px;
+
+$information-distance-between: 30px;
+$information-distance-between768: 25px;
+$information-distance-between425: 20px;
+
+$indentation-between-paragraphs: 20px;
+$indentation-between-paragraphs768: 15px;
+$indentation-between-paragraphs425: 10px;
+
+// FOOTER
+
+$footer-text-color: #F5EFEF;

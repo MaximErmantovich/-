@@ -1,0 +1,71 @@
+
+.welcome {
+
+    min-height: 100vh;
+
+    margin-bottom: $distance-between-blocks;
+    padding-bottom: $distance-between-blocks;
+
+    background-image: url("../img/main/welcome__image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container {
+
+        max-width: 1150px;
+
+    }
+
+    &__title {
+
+        padding-top: 300px;
+        margin-bottom: 150px;
+
+        @extend %font-first;
+        color: $font-color-welcome;
+        font-size: $font-size-welcome;
+        text-align: center;
+
+        @media (max-width: 768px) {
+
+            font-size: $font-size-welcome768;
+
+            padding-top: 250px;
+            margin-bottom: 100px;
+
+        }
+
+        @media (max-width: 425px) {
+
+            font-size: $font-size-welcome425;
+
+            padding-top: 230px;
+            margin-bottom: 70px;
+
+        }
+
+    }
+
+    &__button {
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    @media (max-width: 768px) {
+
+        margin-bottom: $distance-between-blocks768;
+        padding-bottom: $distance-between-blocks768;
+
+    }
+
+    @media (max-width: 425px) {
+
+        margin-bottom: $distance-between-blocks425;
+        padding-bottom: $distance-between-blocks425;
+
+    }
+
+}

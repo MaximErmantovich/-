@@ -1,0 +1,82 @@
+
+body {
+
+    background-color: #E7E3E3;
+
+    &.lock {
+
+        overflow: hidden;
+
+    }
+
+}
+
+.wrapper {
+
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+._container {
+
+    max-width: 1280px;
+    margin: 0px auto;
+
+    padding-left: $protective-padding;
+    padding-right: $protective-padding;
+
+}
+
+.button {
+
+    display: flex;
+
+    position: relative;
+
+    z-index: 0;
+
+    align-items: center;
+    justify-content: center;
+
+    height: $height-button;
+    width: $width-button;
+
+    background-color: $button-color;
+    opacity: 0.8;
+
+    font-family: $font-second;
+    font-size: $size-button;
+    color: $font-color-header;
+
+    transition: opacity 0.2s;
+
+    &:hover {
+
+        opacity: 1;
+
+    }
+
+    @media (max-width: 768px) {
+
+        height: $height-button768;
+        width: $width-button768;
+
+        font-size: $size-button768;
+
+    }
+
+    @media (max-width: 425px) {
+
+        height: $height-button425;
+        width: $width-button425;
+
+        font-size: $size-button425;
+
+    }
+
+}
